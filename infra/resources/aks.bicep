@@ -27,7 +27,7 @@ resource akscluster 'Microsoft.ContainerService/managedClusters@2025-01-02-previ
         name: 'agentpool'
         osDiskSizeGB: 30
         count: 1
-        vmSize: 'Standard_DS2_v2'
+        vmSize: 'standard_d2ads_v6'
         osType: 'Linux'
         mode: 'System'
       }
@@ -35,7 +35,7 @@ resource akscluster 'Microsoft.ContainerService/managedClusters@2025-01-02-previ
         name: 'simulator'
         osDiskSizeGB: 30
         count: 1
-        vmSize: 'Standard_F4s_v2'
+        vmSize: 'standard_d2ads_v6'
         osType: 'Linux'
         mode: 'User'
         nodeLabels:{
