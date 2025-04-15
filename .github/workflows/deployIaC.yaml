@@ -2,10 +2,10 @@
 # This is a basic workflow to help you get started with Actions
 name: IaC Deployment
 env:
-  RESOURCE_GROUP: 'aksrunners-rgnew'
+  RESOURCE_GROUP: 'aksrunners-rg'
   CLUSTER_NAME: 'aksrunners-aks'
   ADMIN_USERNAME: 'aksadmin'
-  REGION: 'eastus2'
+  REGION: 'westeurope'
   REGISTRY: ghcr.io
   IMAGE_NAME: "${{ github.repository }}"
 # Controls when the action will run. 
